@@ -58,8 +58,6 @@ function newGame(){
             figure.style.color = figColor;
             cell.append(figure);
             let icon = document.createElement('img');
-            icon.style.position = 'absolute';
-            icon.style.marginRight = '10px'
             icon.src = 'imgs/'+ figColor + '_' + shape + '.png'
             icon.alt = figColor + ' ' + shape;
             figure.append(icon);
