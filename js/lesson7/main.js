@@ -104,9 +104,5 @@ $NextDeliveryBtn.addEventListener('click', nextDelivery)
 $NextSendBtn.addEventListener('click', nextSend)
 $clearCartBtn.addEventListener('click', clearCart)
 $showCartBtn.addEventListener('click', showCart)
-$clearCartBtn.addEventListener('click', closeCart)
-$clearCartBtn.addEventListener('click', clearCart)
-$showCartBtn.addEventListener('click', showCart)
-$clearCartBtn.addEventListener('click', closeCart)
 
 drawProducts();
